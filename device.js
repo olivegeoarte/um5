@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Device Properties Example</title>
+// JavaScript Document
 
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8" src="device.js"></script>
-    <script type="text/javascript" charset="utf-8">
-/*
+
     // Wait for device API libraries to load
     //
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -21,10 +15,3 @@
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
     }
-*/
-    </script>
-  </head>
-  <body>
-    <p id="deviceProperties">Loading device properties...</p>
-  </body>
-</html>
